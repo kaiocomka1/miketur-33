@@ -10,7 +10,7 @@ const LogoProcessor = () => {
     setIsProcessing(true);
     try {
       // Load the current logo
-      const logoUrl = '/lovable-uploads/b1bca611-be94-4279-bfe2-4fcb8517a491.png';
+      const logoUrl = '/lovable-uploads/52a81929-9898-4f44-b3c2-5e10e17ae8da.png';
       const imageElement = await loadImageFromUrl(logoUrl);
       
       // Remove background

@@ -26,11 +26,11 @@ const Footer = () => {
           {/* Logo e Descrição */}
           <div className="lg:col-span-1">
             <div className="flex flex-col items-center lg:items-start">
-              <img 
-                src="/lovable-uploads/b1bca611-be94-4279-bfe2-4fcb8517a491.png" 
-                alt="Miketur" 
-                className="h-24 w-auto mb-4"
-              />
+               <img 
+                 src="/lovable-uploads/52a81929-9898-4f44-b3c2-5e10e17ae8da.png" 
+                 alt="Miketur" 
+                 className="h-24 w-auto mb-4"
+               />
               <p className="text-white/80 text-sm leading-relaxed mb-6 text-center lg:text-left">
                 Transformamos seus sonhos de viagem em realidade, com atendimento 
                 personalizado e experiências únicas que ficam para sempre na memória.
