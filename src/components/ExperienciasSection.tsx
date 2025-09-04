@@ -69,9 +69,7 @@ const ExperienciasSection = () => {
             Experiências Personalizadas
           </h2>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Na Miketur, cada cliente recebe uma proposta exclusiva, feita sob medida. 
-            Nosso foco é qualidade, segurança e curadoria de experiências únicas — 
-            sempre buscando o melhor custo-benefício, mas sem competir por preço.
+            Na Miketur, você recebe Consultoria Exclusiva: decisões certas, segurança em cada etapa e uma viagem que entrega mais do que qualquer roteiro "por conta". Menos tentativa e erro, mais experiência, suporte e resultados.
           </p>
         </div>
 

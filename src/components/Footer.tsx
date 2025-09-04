@@ -27,7 +27,7 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <div className="flex flex-col items-center lg:items-start">
               <img 
-                src="/lovable-uploads/miketur-logo-new.png" 
+                src="/lovable-uploads/b1bca611-be94-4279-bfe2-4fcb8517a491.png" 
                 alt="Miketur" 
                 className="h-24 w-auto mb-4"
               />
