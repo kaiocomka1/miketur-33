@@ -7,6 +7,7 @@ import UrgenciaSection from "@/components/UrgenciaSection";
 import CotacaoSection from "@/components/CotacaoSection";
 import Footer from "@/components/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+import LogoProcessor from "@/components/LogoProcessor";
 
 const Index = () => {
   return (
@@ -22,6 +23,7 @@ const Index = () => {
       </main>
       <Footer />
       <FloatingWhatsApp />
+      <LogoProcessor />
     </div>
   );
 };
