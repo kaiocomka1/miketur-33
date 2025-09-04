@@ -67,21 +67,21 @@ const UrgenciaSection = () => {
               <span className="text-lg font-semibold">Tempo restante para garantir prioridade:</span>
             </div>
             
-            <div className="flex justify-center gap-2 md:gap-4 text-center max-w-full overflow-x-auto">
-              <div className="bg-white/20 backdrop-blur-sm rounded-lg p-3 md:p-4 min-w-[70px] md:min-w-[80px] flex-shrink-0">
-                <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-accent">
+            <div className="flex justify-center gap-2 md:gap-4 text-center w-full">
+              <div className="bg-white/20 backdrop-blur-sm rounded-lg p-2 md:p-4 flex-1 max-w-[90px] md:max-w-none">
+                <div className="text-xl md:text-3xl lg:text-4xl font-bold text-accent">
                   {timeLeft.hours.toString().padStart(2, '0')}
                 </div>
                 <div className="text-xs md:text-sm text-white/80">Horas</div>
               </div>
-              <div className="bg-white/20 backdrop-blur-sm rounded-lg p-3 md:p-4 min-w-[70px] md:min-w-[80px] flex-shrink-0">
-                <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-accent">
+              <div className="bg-white/20 backdrop-blur-sm rounded-lg p-2 md:p-4 flex-1 max-w-[90px] md:max-w-none">
+                <div className="text-xl md:text-3xl lg:text-4xl font-bold text-accent">
                   {timeLeft.minutes.toString().padStart(2, '0')}
                 </div>
                 <div className="text-xs md:text-sm text-white/80">Minutos</div>
               </div>
-              <div className="bg-white/20 backdrop-blur-sm rounded-lg p-3 md:p-4 min-w-[70px] md:min-w-[80px] flex-shrink-0">
-                <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-accent">
+              <div className="bg-white/20 backdrop-blur-sm rounded-lg p-2 md:p-4 flex-1 max-w-[90px] md:max-w-none">
+                <div className="text-xl md:text-3xl lg:text-4xl font-bold text-accent">
                   {timeLeft.seconds.toString().padStart(2, '0')}
                 </div>
                 <div className="text-xs md:text-sm text-white/80">Segundos</div>
