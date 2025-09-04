@@ -44,44 +44,44 @@ const UrgenciaSection = () => {
         <div className="absolute top-1/2 left-1/3 w-16 h-16 border border-white/20 rounded-full"></div>
       </div>
 
-      <div className="w-full max-w-[100vw] px-4 lg:px-8 relative z-10">
+      <div className="w-full px-4 lg:px-6 relative z-10">
         <div className="text-center max-w-4xl mx-auto animate-fade-in">
-          <div className="flex items-center justify-center gap-2 mb-4">
-            <Flame className="w-8 h-8 text-accent animate-pulse-slow" />
-            <span className="text-accent font-semibold text-lg">OFERTA EXCLUSIVA</span>
-            <Flame className="w-8 h-8 text-accent animate-pulse-slow" />
+          <div className="flex items-center justify-center gap-1 sm:gap-2 mb-4 flex-wrap">
+            <Flame className="w-6 h-6 sm:w-8 sm:h-8 text-accent animate-pulse-slow flex-shrink-0" />
+            <span className="text-accent font-semibold text-base sm:text-lg whitespace-nowrap">OFERTA EXCLUSIVA</span>
+            <Flame className="w-6 h-6 sm:w-8 sm:h-8 text-accent animate-pulse-slow flex-shrink-0" />
           </div>
 
-          <h2 className="font-playfair text-3xl md:text-5xl font-bold mb-6">
+          <h2 className="font-playfair text-2xl sm:text-3xl md:text-5xl font-bold mb-6">
             Garanta prioridade na sua cotação!
           </h2>
           
-          <p className="text-xl md:text-2xl mb-8 text-white/90">
+          <p className="text-lg sm:text-xl md:text-2xl mb-8 text-white/90">
             Vagas limitadas para embarque na alta temporada
           </p>
 
           {/* Timer */}
           <div className="mb-8">
-            <div className="flex items-center justify-center gap-2 mb-4">
-              <Clock className="w-6 h-6 text-accent" />
-              <span className="text-lg font-semibold">Tempo restante para garantir prioridade:</span>
+            <div className="flex items-center justify-center gap-2 mb-4 flex-wrap">
+              <Clock className="w-5 h-5 sm:w-6 sm:h-6 text-accent flex-shrink-0" />
+              <span className="text-sm sm:text-lg font-semibold text-center">Tempo restante para garantir prioridade:</span>
             </div>
             
-            <div className="flex justify-center gap-2 md:gap-4 text-center w-full">
-              <div className="bg-white/20 backdrop-blur-sm rounded-lg p-2 md:p-4 flex-1 max-w-[90px] md:max-w-none">
-                <div className="text-xl md:text-3xl lg:text-4xl font-bold text-accent">
+            <div className="flex justify-center gap-1 sm:gap-2 md:gap-4 text-center w-full max-w-sm mx-auto">
+              <div className="bg-white/20 backdrop-blur-sm rounded-lg p-2 sm:p-3 md:p-4 flex-1 min-w-0">
+                <div className="text-lg sm:text-xl md:text-3xl lg:text-4xl font-bold text-accent">
                   {timeLeft.hours.toString().padStart(2, '0')}
                 </div>
                 <div className="text-xs md:text-sm text-white/80">Horas</div>
               </div>
-              <div className="bg-white/20 backdrop-blur-sm rounded-lg p-2 md:p-4 flex-1 max-w-[90px] md:max-w-none">
-                <div className="text-xl md:text-3xl lg:text-4xl font-bold text-accent">
+              <div className="bg-white/20 backdrop-blur-sm rounded-lg p-2 sm:p-3 md:p-4 flex-1 min-w-0">
+                <div className="text-lg sm:text-xl md:text-3xl lg:text-4xl font-bold text-accent">
                   {timeLeft.minutes.toString().padStart(2, '0')}
                 </div>
                 <div className="text-xs md:text-sm text-white/80">Minutos</div>
               </div>
-              <div className="bg-white/20 backdrop-blur-sm rounded-lg p-2 md:p-4 flex-1 max-w-[90px] md:max-w-none">
-                <div className="text-xl md:text-3xl lg:text-4xl font-bold text-accent">
+              <div className="bg-white/20 backdrop-blur-sm rounded-lg p-2 sm:p-3 md:p-4 flex-1 min-w-0">
+                <div className="text-lg sm:text-xl md:text-3xl lg:text-4xl font-bold text-accent">
                   {timeLeft.seconds.toString().padStart(2, '0')}
                 </div>
                 <div className="text-xs md:text-sm text-white/80">Segundos</div>
