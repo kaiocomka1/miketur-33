@@ -27,9 +27,9 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <div className="flex flex-col items-center lg:items-start">
               <img 
-                src="/lovable-uploads/deff4c6f-6641-45c3-bbc0-4c0fc2465259.png" 
+                src="/lovable-uploads/miketur-logo-new.png" 
                 alt="Miketur" 
-                className="h-20 w-auto mb-4"
+                className="h-24 w-auto mb-4"
               />
               <p className="text-white/80 text-sm leading-relaxed mb-6 text-center lg:text-left">
                 Transformamos seus sonhos de viagem em realidade, com atendimento 
