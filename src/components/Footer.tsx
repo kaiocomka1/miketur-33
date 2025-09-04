@@ -27,9 +27,9 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <div className="flex flex-col items-center lg:items-start">
               <img 
-                src="/lovable-uploads/e7ee80fe-0b4d-4bc9-bac9-bb39ad439302.png" 
+                src="/lovable-uploads/deff4c6f-6641-45c3-bbc0-4c0fc2465259.png" 
                 alt="Miketur" 
-                className="h-16 w-auto mb-4"
+                className="h-20 w-auto mb-4"
               />
               <p className="text-white/80 text-sm leading-relaxed mb-6 text-center lg:text-left">
                 Transformamos seus sonhos de viagem em realidade, com atendimento 
@@ -38,7 +38,7 @@ const Footer = () => {
             </div>
             <div className="flex gap-4">
               <a 
-                href="https://instagram.com/miketur" 
+                href="https://www.instagram.com/miketur_/#" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-smooth"

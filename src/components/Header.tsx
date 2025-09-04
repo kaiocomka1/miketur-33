@@ -79,9 +79,9 @@ const Header = () => {
           {/* Mobile Logo - Centered and Constrained */}
           <div className="flex-1 flex justify-center px-2">
             <img 
-              src="/lovable-uploads/e7ee80fe-0b4d-4bc9-bac9-bb39ad439302.png" 
+              src="/lovable-uploads/deff4c6f-6641-45c3-bbc0-4c0fc2465259.png" 
               alt="Miketur" 
-              className="h-12 w-auto max-w-[150px] transition-smooth hover:scale-105"
+              className="h-14 w-auto max-w-[150px] transition-smooth hover:scale-105"
             />
           </div>
 
@@ -122,9 +122,9 @@ const Header = () => {
           {/* Desktop Logo - Centered and Constrained */}
           <div className="flex items-center justify-center flex-shrink-0 px-4">
             <img 
-              src="/lovable-uploads/e7ee80fe-0b4d-4bc9-bac9-bb39ad439302.png" 
+              src="/lovable-uploads/deff4c6f-6641-45c3-bbc0-4c0fc2465259.png" 
               alt="Miketur" 
-              className="h-14 lg:h-16 w-auto max-w-[200px] transition-smooth hover:scale-105"
+              className="h-16 lg:h-18 w-auto max-w-[200px] transition-smooth hover:scale-105"
             />
           </div>
 
