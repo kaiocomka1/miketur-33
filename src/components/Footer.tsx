@@ -38,26 +38,23 @@ const Footer = () => {
             </div>
             <div className="flex gap-4">
               <a 
-                href="#" 
+                href="https://instagram.com/miketur" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-smooth"
                 aria-label="Instagram"
               >
                 <Instagram className="w-5 h-5" />
               </a>
               <a 
-                href="#" 
-                className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-smooth"
-                aria-label="Facebook"
-              >
-                <Facebook className="w-5 h-5" />
-              </a>
-              <button 
-                onClick={scrollToForm}
+                href="https://wa.me/5517996663853"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-smooth"
                 aria-label="WhatsApp"
               >
                 <MessageCircle className="w-5 h-5" />
-              </button>
+              </a>
             </div>
           </div>
 
@@ -167,8 +164,7 @@ const Footer = () => {
                 <div>
                   <p className="text-white/80 text-sm">Atendimento</p>
                   <p className="text-white text-sm">
-                    7 dias por semana<br />
-                    Das 8h às 22h
+                    Atendimento todos os dias das 09h às 22h
                   </p>
                 </div>
               </div>
@@ -192,14 +188,6 @@ const Footer = () => {
               © 2024 Miketur. Todos os direitos reservados. 
               Experiências personalizadas e momentos inesquecíveis.
             </p>
-            <div className="flex gap-6 text-sm">
-              <a href="#" className="text-white/70 hover:text-accent transition-smooth">
-                Política de Privacidade
-              </a>
-              <a href="#" className="text-white/70 hover:text-accent transition-smooth">
-                Termos de Uso
-              </a>
-            </div>
           </div>
         </div>
       </div>

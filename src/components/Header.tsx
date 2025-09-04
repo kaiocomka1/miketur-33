@@ -27,18 +27,9 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-border shadow-card w-full max-w-[100vw]">
       <div className="w-full max-w-[100vw] px-4 lg:px-8">
         {/* Mobile Layout */}
-        <div className="flex items-center justify-start h-16 md:h-20 md:justify-between w-full">
-          {/* Logo */}
-          <div className="flex items-center flex-shrink-0">
-            <img 
-              src="/lovable-uploads/e7ee80fe-0b4d-4bc9-bac9-bb39ad439302.png" 
-              alt="Miketur" 
-              className="h-6 md:h-12 w-auto transition-smooth hover:scale-105"
-            />
-          </div>
-
-          {/* Mobile Navigation - Right of logo */}
-          <nav className="md:hidden flex items-center ml-2 space-x-2 text-xs flex-1 justify-end">
+        <div className="flex items-center h-16 md:h-20 w-full">
+          {/* Mobile Navigation - Left side */}
+          <nav className="md:hidden flex items-center space-x-1 text-xs flex-1">
             <button 
               onClick={() => scrollToSection('inicio')}
               className="text-foreground hover:text-primary transition-smooth font-medium px-1 py-1 whitespace-nowrap"
@@ -51,16 +42,10 @@ const Header = () => {
             >
               Experiências
             </button>
-            <button 
-              onClick={scrollToForm}
-              className="bg-primary text-primary-foreground px-2 py-1 rounded text-xs font-medium hover:bg-primary/90 transition-smooth whitespace-nowrap"
-            >
-              Cotação
-            </button>
           </nav>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          {/* Desktop Navigation - Left side */}
+          <nav className="hidden md:flex items-center space-x-8 flex-1">
             <button 
               onClick={() => scrollToSection('inicio')}
               className="text-foreground hover:text-primary transition-smooth font-medium"
@@ -87,8 +72,27 @@ const Header = () => {
             </button>
           </nav>
 
-          {/* CTA Button Desktop */}
-          <div className="hidden md:block">
+          {/* Logo - Centered */}
+          <div className="flex items-center justify-center flex-shrink-0">
+            <img 
+              src="/lovable-uploads/e7ee80fe-0b4d-4bc9-bac9-bb39ad439302.png" 
+              alt="Miketur" 
+              className="h-12 md:h-16 w-auto transition-smooth hover:scale-105"
+            />
+          </div>
+
+          {/* Mobile CTA - Right side */}
+          <div className="md:hidden flex items-center justify-end flex-1">
+            <button 
+              onClick={scrollToForm}
+              className="bg-primary text-primary-foreground px-2 py-1 rounded text-xs font-medium hover:bg-primary/90 transition-smooth whitespace-nowrap"
+            >
+              Cotação
+            </button>
+          </div>
+
+          {/* Desktop CTA - Right side */}
+          <div className="hidden md:flex items-center justify-end flex-1">
             <Button 
               variant="premium"
               onClick={scrollToForm}
