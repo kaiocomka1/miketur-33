@@ -42,7 +42,7 @@ const QuemSomosSection = () => {
     {
       name: "Caraíva",
       location: "Bahia, Brasil",
-      image: "/lovable-uploads/fae3856e-b1f5-43e6-bb63-b17fc62292e3.png",
+      image: "/lovable-uploads/747d92c5-bf26-46c4-bc6d-cb8eadbbba5f.png",
       description: "Vila rústica com charme autêntico e praias preservadas",
       icon: <Heart className="w-5 h-5 text-accent" />
     },

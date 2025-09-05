@@ -46,10 +46,10 @@ const Header = () => {
                   Início
                 </button>
                 <button 
-                  onClick={() => scrollToSection('experiencias')}
+                  onClick={() => scrollToSection('quem-somos')}
                   className="text-left text-foreground hover:text-primary transition-smooth font-medium text-lg"
                 >
-                  Experiências
+                  Quem Somos
                 </button>
                 <button 
                   onClick={() => scrollToSection('depoimentos')}
@@ -100,10 +100,10 @@ const Header = () => {
               Início
             </button>
             <button 
-              onClick={() => scrollToSection('experiencias')}
+              onClick={() => scrollToSection('quem-somos')}
               className="text-foreground hover:text-primary transition-smooth font-medium text-sm lg:text-base whitespace-nowrap"
             >
-              Experiências
+              Quem Somos
             </button>
             <button 
               onClick={() => scrollToSection('depoimentos')}
