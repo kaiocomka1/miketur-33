@@ -27,7 +27,7 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <div className="flex flex-col items-center lg:items-start">
                <img 
-                 src="/lovable-uploads/52a81929-9898-4f44-b3c2-5e10e17ae8da.png" 
+                 src="/lovable-uploads/3b4490c9-9d3a-4f66-b920-117caa6d8802.png" 
                  alt="Miketur" 
                  className="h-24 w-auto mb-4"
                />
@@ -72,10 +72,10 @@ const Footer = () => {
               </li>
               <li>
                 <button 
-                  onClick={() => scrollToSection('experiencias')}
+                  onClick={() => scrollToSection('quem-somos')}
                   className="text-white/80 hover:text-accent transition-smooth text-sm"
                 >
-                  Experiências
+                  Quem Somos
                 </button>
               </li>
               <li>
@@ -184,8 +184,8 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="border-t border-white/20 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-white/70 text-sm text-center md:text-left">
-              © 2024 Miketur. Todos os direitos reservados. 
+            <p className="text-white/70 text-sm text-center">
+              © 2023 Miketur. Todos os direitos reservados. 
               Experiências personalizadas e momentos inesquecíveis.
             </p>
           </div>
